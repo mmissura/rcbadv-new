@@ -1,0 +1,22 @@
+[
+  {
+    "id": "home",
+    "name": "Home",
+    "link": "/"
+  },
+  {
+    "id": "team",
+    "name": "Os Advogados",
+    "link": "/advogados"
+  },
+  {
+    "id": "company",
+    "name": "Sobre",
+    "link": "/sobre"
+  },
+  {
+    "id": "contact",
+    "name": "Contato",
+    "link": "/contato"
+  }
+]
