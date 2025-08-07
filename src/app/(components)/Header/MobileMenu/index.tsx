@@ -22,7 +22,7 @@ export function MobileMenu() {
   return (
     <>
       <button type="button" onClick={() => setShow(true)}>
-        <IoMdMenu size={24} className="text-[#C9AA8E]" />
+        <IoMdMenu size={24} className="text-slate-400" />
       </button>
       <menu
         data-show={show}
