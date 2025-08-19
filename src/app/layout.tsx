@@ -149,6 +149,23 @@ export default function RootLayout({
           `}
         </Script>
 
+        <Script id="google-ads-conversion" strategy="afterInteractive">
+          {`
+            function gtag_report_conversion(url) {
+              var callback = function () {
+                if (typeof(url) != 'undefined') {
+                  window.location = url;
+                }
+              };
+              gtag('event', 'conversion', {
+                  'send_to': 'AW-17439504834/O5jBCOfQvYYbEMLz5vtA',
+                  'event_callback': callback
+              });
+              return false;
+            }
+          `}
+        </Script>
+
         <Navbar />
         {children}
         <Footer />
