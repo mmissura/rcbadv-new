@@ -177,10 +177,7 @@ export default function Home() {
 
           <div className="py-10">
             <p className="2xl:text-xl xl:text-xl font-bold text-center">
-              Entre em contato conosco agora mesmo e saiba como podemos ajudar.
-            </p>
-            <p className="2xl:text-xl xl:text-xl font-bold text-center">
-              Entre em contato com nossa equipe.
+              Entre em contato com a nossa equipe e saiba como podemos ajudar.
             </p>
           </div>
 
