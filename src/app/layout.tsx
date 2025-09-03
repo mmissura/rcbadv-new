@@ -3,7 +3,7 @@ import { Be_Vietnam_Pro } from 'next/font/google';
 import { Navbar } from './(components)/Header/Navbar';
 import './globals.css';
 import { Footer } from './(components)/Footer';
-import Script from 'next/script'; // <-- Importa o Script
+import Script from 'next/script';
 
 const be_vietnam = Be_Vietnam_Pro({
   subsets: ['latin'],
@@ -137,32 +137,20 @@ export default function RootLayout({
         {/* Google Ads - Script */}
         <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-17439504834"
+          src="https://www.googletagmanager.com/gtag/js?id=G-G9EP990P94"
           strategy="afterInteractive"
         />
-        <Script id="google-ads" strategy="afterInteractive">
+        <Script id="google-tag-manager" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-17439504834');
-          `}
-        </Script>
 
-        <Script id="google-ads-conversion" strategy="afterInteractive">
-          {`
-            function gtag_report_conversion(url) {
-              var callback = function () {
-                if (typeof(url) != 'undefined') {
-                  window.location = url;
-                }
-              };
-              gtag('event', 'conversion', {
-                  'send_to': 'AW-17439504834/O5jBCOfQvYYbEMLz5vtA',
-                  'event_callback': callback
-              });
-              return false;
-            }
+            // Google Analytics 4
+            gtag('config', 'G-G9EP990P94');
+
+            // Google Ads
+            gtag('config', 'AW-17439504834');
           `}
         </Script>
 
