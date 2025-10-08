@@ -10,9 +10,30 @@ export default function Home() {
   return (
     <>
       <header
-        className="bg-hero w-full h-full max-h-[100vh] object-contain scroll-m-40"
+        className="w-full h-full max-h-[100vh] object-contain scroll-m-40"
         id="home"
-      ></header>
+      >
+        <section className="p-10 scroll-m-40" id="contact">
+          <TitlePage title="Advogados em Pirassununga" className="my-12" />
+
+          <div className="flex flex-col justify-center items-center text-slate-700 my-6">
+            <h1 className="text-center text-xl">
+              Especialidades: Divórcio, Empresarial, Civil, Imobiliário,
+              Agronegócio, Ambiental, Minerário, etc.
+            </h1>
+            <div className="flex justify-center items-center my-12">
+              <a
+                href="https://wa.me/5519971413322"
+                target="_blank"
+                className="w-72 h-14 bg-green-700 text-white 
+    flex justify-center items-center gap-3 rounded-xl text-xl"
+              >
+                <FaWhatsapp /> Fale conosco
+              </a>
+            </div>
+          </div>
+        </section>
+      </header>
       <div className="bg-gradient-to-b from-[#eaf4f4] to-white">
         <section
           className="2xl:w-4/5 xl:w-4/5 2xl:px-0 xl:px-0 w-full px-4 m-auto py-10 scroll-m-40"
@@ -119,8 +140,8 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="p-6 bg-[#eaf4f4] rounded-xl shadow hover:shadow-lg transition">
-              <h3 className="text-xl font-bold text-slate-800 text-center mt-10">
+            <div className="p-6 bg-[#eaf4f4] rounded-xl shadow hover:shadow-lg transition flex flex-col justify-center items-center text-center">
+              <h3 className="text-xl font-bold text-slate-800">
                 Atuação Extrajudicial
               </h3>
             </div>
