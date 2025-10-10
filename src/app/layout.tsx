@@ -70,7 +70,12 @@ export default function RootLayout({
             gtag('config', 'G-G9EP990P94');
 
             // Google Ads
-            gtag('config', 'AW-17439504834');
+            gtag('config', 'AW-17439504834');            
+
+            // Google Tag Manager
+            gtag('config', 'GTM-N2VPDDSK');
+            
+
           `}
         </Script>
 
