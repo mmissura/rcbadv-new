@@ -87,6 +87,16 @@ export default function RootLayout({
             gtag('config', 'GTM-N2VPDDSK');
       `}
         </Script>
+
+        <Script id="google-conversion" strategy="afterInteractive">
+          {`
+            gtag('event', 'conversion', {
+                'send_to': 'AW-17439504834/5xsHCOu_6qobEMLz5vtA',
+                'value': 1.0,
+                'currency': 'BRL'
+            });
+          `}
+        </Script>
       </head>
 
       <body>
