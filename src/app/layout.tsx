@@ -85,6 +85,9 @@ export default function RootLayout({
 
         // Google Tag Manager
             gtag('config', 'GTM-N2VPDDSK');
+
+             // Google Tag Manager
+            gtag('config', 'GT-KDZ4XLL9');
       `}
         </Script>
 
