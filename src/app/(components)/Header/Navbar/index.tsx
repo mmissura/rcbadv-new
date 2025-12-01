@@ -29,7 +29,7 @@ export function Navbar() {
             <MobileMenu />
           </div>
           <a
-            href="https://wa.me/5519971413322?text=Olá!%20Vi%20seu%20anúncio%20no%20Google%20e%20gostaria%20de%20falar%20com%20vocês."
+            href="https://wa.me/5519971413322"
             target="_blank"
             className="hidden lg:flex bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-full items-center gap-2 text-sm shadow-md"
           >

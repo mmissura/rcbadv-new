@@ -23,7 +23,7 @@ export default function Home() {
             </h1>
             <div className="flex justify-center items-center my-12">
               <a
-                href="https://wa.me/5519971413322?text=Olá!%20Vi%20seu%20anúncio%20no%20Google%20e%20gostaria%20de%20falar%20com%20vocês."
+                href="https://wa.me/5519971413322"
                 target="_blank"
                 className="w-72 h-14 bg-green-700 text-white 
     flex justify-center items-center gap-3 rounded-xl text-xl"
@@ -66,7 +66,7 @@ export default function Home() {
         </section>
         <div className="flex justify-center items-center my-12">
           <a
-            href="https://wa.me/5519971413322?text=Olá!%20Vi%20seu%20anúncio%20no%20Google%20e%20gostaria%20de%20falar%20com%20vocês."
+            href="https://wa.me/5519971413322"
             target="_blank"
             className="w-72 h-14 bg-green-700 text-white 
     flex justify-center items-center gap-3 rounded-xl text-xl"
@@ -203,7 +203,7 @@ export default function Home() {
           </div>
 
           <a
-            href="https://wa.me/5519971413322?text=Olá!%20Vi%20seu%20anúncio%20no%20Google%20e%20gostaria%20de%20falar%20com%20vocês."
+            href="https://wa.me/5519971413322"
             target="_blank"
             className="w-72 h-14 bg-green-700 text-white 
     flex justify-center items-center gap-3 rounded-xl text-xl my-12"
@@ -223,7 +223,7 @@ export default function Home() {
         ></iframe>
       </section>
       <a
-        href="https://wa.me/5519971413322?text=Olá!%20Vi%20seu%20anúncio%20no%20Google%20e%20gostaria%20de%20falar%20com%20vocês."
+        href="https://wa.me/5519971413322"
         target="_blank"
         className="fixed bottom-5 right-5 z-50 bg-green-600 hover:bg-green-700 text-white p-4 rounded-full shadow-lg transition"
         aria-label="WhatsApp"

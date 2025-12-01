@@ -13,7 +13,7 @@ export function Footer() {
             <p>
               Henrique:
               <a
-                href="https://wa.me/551997622842?text=Olá!%20Vi%20seu%20anúncio%20no%20Google%20e%20gostaria%20de%20falar%20com%20vocês."
+                href="https://wa.me/551997622842"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -24,7 +24,7 @@ export function Footer() {
             <p>
               Fábio:
               <a
-                href="https://wa.me/5519971413322?text=Olá!%20Vi%20seu%20anúncio%20no%20Google%20e%20gostaria%20de%20falar%20com%20vocês."
+                href="https://wa.me/5519971413322"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -35,7 +35,7 @@ export function Footer() {
             <p>
               Anderson:
               <a
-                href="https://wa.me/551997400215?text=Olá!%20Vi%20seu%20anúncio%20no%20Google%20e%20gostaria%20de%20falar%20com%20vocês."
+                href="https://wa.me/551997400215"
                 target="_blank"
                 rel="noopener noreferrer"
               >
